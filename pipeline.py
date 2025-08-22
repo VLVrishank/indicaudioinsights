@@ -47,7 +47,7 @@ def nlp_analysis_hindi(text):
         for word in sentence.words:
             print(f"{word.text} -> {word.upos}")
 
-# ✅ 5. NER using IndicNER
+# 5. NER using IndicNER
 def nlp_analysis_ner(text):
     print("\n--- Named Entities (IndicNER) ---")
     tokenizer = AutoTokenizer.from_pretrained("ai4bharat/IndicNER")
